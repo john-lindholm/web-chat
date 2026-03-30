@@ -1,0 +1,9 @@
+**.iml
+**/__pycache__/**
+**/.pytest_cache/**
+**.key
+**/*.key
+/.venv*/
+/out/
+/backend/uploads/local
+/frontend/node_modules
