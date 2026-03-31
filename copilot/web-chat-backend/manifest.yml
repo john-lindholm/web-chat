@@ -45,3 +45,10 @@ variables:                    # Pass environment variables as key value pairs.
 #    count: 2               # Number of tasks to run for the "test" environment.
 #    deployment:            # The deployment strategy for the "test" environment.
 #       rolling: 'recreate' # Stops existing tasks before new ones are started for faster deployments.
+
+storage:
+  volumes:
+    data:
+      path: /app/uploads
+      efs: true
+      read_only: false
